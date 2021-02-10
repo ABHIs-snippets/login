@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="" type="image/icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        h1{
+            text-align: center;
+            margin: 10px auto;
+            font-size: 16px;
+        }
+        hr{
+            margin: 4px 0;
+            border: none;
+            background-color: rgb(209, 209, 209);
+            height: .5px;
+        }
+        .main{
+            width: 100%;
+            padding: 10px 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .img{
+            width: 90px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        img{
+            width: 100%;
+        }
+        .right{
+            padding: 15px;
+            font-size: 18px;
+            font-weight: 100;
+        }
+        .follow{
+            margin: 10px;
+            padding: 5px 10px;
+            letter-spacing: 1px;
+            background-color: #0095f6;
+            color: #fff;
+            border:none;
+            border-radius: 3px;
+        }
+        span{
+            margin: 10px 20px;
+            font-size: 12px;
+        }
+        .block{
+            padding: 20px 10px;
+        }
+        h3{
+            font-size: 16px;
+            margin: 5px 5px;
+        }
+        .inner{
+            padding: 10px;
+            background-color: rgb(223, 223, 223);
+            color: rgb(46, 46, 46);
+            overflow: hidden;
+        }
+        section{
+            margin:25px 6px;
+
+        }
+        .queans{
+            margin: 25px 0;
+        }
+        h4{
+            margin: 16px 3px;
+            display: inline;
+            background-color: rgb(243, 243, 243);
+            padding: 4px 6px;
+        }
+        .que{
+            background-color: rgb(243, 243, 243);
+            padding: 4px 6px;
+            margin: 10px 0;
+            border: dotted rgb(172, 172, 172) 1px;
+        }
+        ul{
+            margin: 8px 8px;
+            list-style: none;
+        }
+        section button {
+            margin: 5px 0 0px 10px;
+    padding: 5px;
+    box-shadow: rgb(180, 180, 180) -2px -1px 6px;
+}
+      .more{
+          text-align: center;
+      }
+        
+    </style>
+</head>
+
+<body>
+   <h1>data_science_learn</h1>
+   <hr>
+   <div class="main">
+       <div class="img">
+           <img src="https://instagram.fdel4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/121469032_781424209085162_6576046264955194657_n.jpg?_nc_ht=instagram.fdel4-1.fna.fbcdn.net&amp;_nc_ohc=1J6rQW4oY64AX-xsYI-&amp;oh=83428a4f5fcd69cad7ac733a9eaf5039&amp;oe=5FBA2387" alt="">
+       </div>
+       <div class="right">
+
+           <p class="name">data_science_learn</p>
+           <button data-target="modal1" class="follow modal-trigger">Follow</button>
+       </div>
+   </div>
+   <span>Data Science Learn™</span>
+
+   <!-- =============modal========= -->
+    <!-- Modal Trigger -->
+ 
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>OOPS!&#x1F61F;</h4>
+      <p>you are not log in with instagram.</p>
+      <p>follow us on instagram</p>
+      <div class="main">
+        <div class="img">
+            <img src="https://instagram.fdel4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/121469032_781424209085162_6576046264955194657_n.jpg?_nc_ht=instagram.fdel4-1.fna.fbcdn.net&amp;_nc_ohc=1J6rQW4oY64AX-xsYI-&amp;oh=83428a4f5fcd69cad7ac733a9eaf5039&amp;oe=5FBA2387" alt="">
+        </div>
+        <div class="right">
+ 
+            <p class="name">data_science_learn</p>
+        </div>
+        <span>Data Science Learn™</span>
+    </div>
+    </div>
+    <div class="modal-footer">
+      <a href="login.html" class="modal-close waves-effect waves-green btn-flat">log in</a>
+    </div>
+  </div>
+   <!-- =============modal========= -->
+
+   <section>
+       <div class="queans">
+           <h4>Question: 1</h4>
+           <div class="que"><p>
+               Which of the following is the least safe type casting in C++?
+            </p></div>
+           <ul>
+               <li>(A) static_cast</li>
+               <li>(B) const_cast</li>
+               <li>(C) reinterpret_cast</li>
+               <li>(D) dynamic_cast</li>
+           </ul>
+           <button data-target="modal1" class="modal-trigger">Show Ans</button>
+       </div>
+       <div class="queans">
+           <h4>Question: 2</h4>
+           <div class="que"><p>
+            dynamic_cast can be used only with pointers and references to objects </p></div>
+           <ul>
+               <li>(A) True</li>
+               <li>(B) False</li>
+           </ul>
+           <button data-target="modal1" class="modal-trigger">Show Ans</button>
+       </div>
+       <div class="queans">
+           <h4>Question: 3</h4>
+           <div class="que"><p>
+            dynamic_cast is always successful when we cast a class to one of its base classes
+
+            </p></div>
+           <ul>
+               <li>(A) True</li>
+               <li>(B) False</li>
+           </ul>
+           <button data-target="modal1" class="modal-trigger">Show Ans</button>
+       </div>
+       <div class="queans">
+           <h4>Question: 4</h4>
+           <div class="que"><p>
+            When dynamic_cast cannot cast a pointer because it is not
+            a complete object of the required class it returns
+            a null pointer to indicate the failure
+            </p></div>
+           <ul>
+               <li>(A) True</li>
+               <li>(B) False</li>
+           </ul>
+           <button data-target="modal1" class="modal-trigger">Show Ans</button>
+       </div>
+   </section>
+   <div class="more"><a href="" data-target="modal1" class="modal-trigger">more on data  &#9778;</a></div>
+
+   <div class="block">
+        <h3>Algorithm</h3>
+        <div class="inner"><p><pre>
+            begin procedure peek
+            return queue[front]
+         end procedure
+        </pre></p></div>
+         <h3>Example</h3>
+         <div class="inner"><p>
+         <pre>
+  int peek() {
+      return queue[front];
+   }
+         </pre></p></div>
+   </div>
+   <div class="block">
+        <h3>Algorithm</h3>
+        <div class="inner"><p><pre>
+  begin procedure isempty
+ 
+  if front is less than MIN  OR front is greater than rear
+     return true
+  else
+     return false
+  endif
+  
+end procedure
+        </pre></p></div>
+         <h3>Example</h3>
+         <div class="inner"><p><pre>
+  bool isempty() {
+      if(front < 0 || front > rear) 
+         return true;
+       else
+          return false;
+   }
+         </pre></p></div>
+   </div>
+   <div class="block">
+        <h3>Algorithm</h3>
+        <div class="inner"><p><pre>
+            begin procedure isfull
+
+   if rear equals to MAXSIZE
+      return true
+   else
+      return false
+   endif
+   
+end procedure
+        </pre></p></div>
+         <h3>Example</h3>
+         <div class="inner"><p><pre> 
+   bool isfull() {
+       if(rear == MAXSIZE - 1)
+          return true;
+       else
+          return false;
+    }            
+         </pre></p></div>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+//   Or with jQuery
+
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+</script>
+  
+
+</body>
+
+</html>
